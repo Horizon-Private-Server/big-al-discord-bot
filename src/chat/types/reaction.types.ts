@@ -12,7 +12,13 @@ const DL_REACTIONS: { [emoji: string]: string } = {
   '938587265691693088': '936437431106961409',
 };
 
+const SM_REACTIONS: { [emoji: string]: string } = {
+  // SM_Custom_Emoji - SM Players
+  '963237459947290674': '962548543095197706',
+};
+
 export const ROLE_REACTIONS = {
   ...UYA_REACTIONS,
   ...DL_REACTIONS,
+  ...SM_REACTIONS,
 };
