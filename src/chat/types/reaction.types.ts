@@ -28,4 +28,5 @@ export const ROLE_REACTIONS = {
   ...UYA_REACTIONS,
   ...DL_REACTIONS,
   ...SM_REACTIONS,
+  ...FUN_REACTIONS,
 };
