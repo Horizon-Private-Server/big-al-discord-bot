@@ -17,6 +17,13 @@ const SM_REACTIONS: { [emoji: string]: string } = {
   '962744144986505256': '962548543095197706',
 };
 
+const FUN_REACTIONS: { [emoji: string]: string } = {
+  // Fun Game / Misc roles
+  // Duckie Emoji - Fun Game Players
+  '938587083939921950': '1046153128594129006',
+};
+
+
 export const ROLE_REACTIONS = {
   ...UYA_REACTIONS,
   ...DL_REACTIONS,
