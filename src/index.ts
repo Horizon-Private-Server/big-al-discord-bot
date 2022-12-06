@@ -60,7 +60,8 @@ client.on('ready', () => {
       Number(process.env.UYA_QUEUE_INTERVAL) || 60000
     );
   }
-  initMessageReactionMonitor(client);
+  // We have moved this to Helga. So we can disable this.
+  // initMessageReactionMonitor(client);
 });
 
 /**
